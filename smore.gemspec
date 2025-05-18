@@ -1,22 +1,22 @@
 # frozen_string_literal: true
 
-require_relative "lib/example/version"
+require_relative "lib/smore/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "example"
-  spec.version = Example::VERSION
-  spec.authors = ["Example Owner"]
-  spec.email = ["owner@example.com"]
+  spec.name = "smore"
+  spec.version = Smore::VERSION
+  spec.authors = ["xrendan"]
+  spec.email = ["brendan@brendansamek.com"]
 
-  spec.summary = ""
-  spec.homepage = "https://github.com/mattbrictson/gem"
+  spec.summary = "smore brings tools to raix and roast for a delicious gooey concoction"
+  spec.homepage = "https://github.com/xrendan/smore"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1"
 
   spec.metadata = {
-    "bug_tracker_uri" => "https://github.com/mattbrictson/gem/issues",
-    "changelog_uri" => "https://github.com/mattbrictson/gem/releases",
-    "source_code_uri" => "https://github.com/mattbrictson/gem",
+    "bug_tracker_uri" => "https://github.com/xrendan/smore/issues",
+    "changelog_uri" => "https://github.com/xrendan/smore/releases",
+    "source_code_uri" => "https://github.com/xrendan/smore",
     "homepage_uri" => spec.homepage,
     "rubygems_mfa_required" => "true"
   }
