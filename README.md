@@ -5,7 +5,8 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/xrendan/smore/ci.yml)](https://github.com/xrendan/smore/actions/workflows/ci.yml)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/xrendan/smore)](https://codeclimate.com/github/xrendan/smore)
 
-TODO: Description of this gem goes here.
+smore brings tools to the raix and roast ecosystems to make it easier to automate workflows with AI.
+
 
 ---
 
@@ -39,4 +40,7 @@ Everyone interacting in this project’s codebases, issue trackers, chat rooms a
 
 ## Contribution guide
 
-Pull requests are welcome!
+Pull requests are welcome, PRs adding tools without tests will be rejected. 
+
+If a tool requires a certain dependency, add a test that throws an error if 
+the dependency is not installed. 
